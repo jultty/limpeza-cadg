@@ -18,8 +18,8 @@ A marcação de moeda "USD" não permite a importação como um tipo *float* pel
 
 O arquivo CSV traduzido não usa uma codificação com suporte para todos os acentos, causando erros de exibição nos caracteres especiais. Você pode ver o script usado para normalizar e substituir as ocorrências na pasta `scripts`.
 
-## Curso 5, semana 3
-**Seção:** Usar instruções JOIN para agregar dados no SQL
+## Curso 5, semana 3  
+**Seção:** Usar instruções JOIN para agregar dados no SQL  
 **Conjuntos de dados:** `employees.csv` e `departments.csv`
 
 Apenas desfaz a tradução dos cabeçalhos para facilitar ao acompanhar o vídeo. Note também que a coluna "id_departmento" tem um erro de digitação.
