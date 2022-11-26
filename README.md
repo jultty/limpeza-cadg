@@ -23,3 +23,11 @@ O arquivo CSV traduzido não usa uma codificação com suporte para todos os ace
 **Conjuntos de dados:** `employees.csv` e `departments.csv`
 
 Apenas desfaz a tradução dos cabeçalhos para facilitar ao acompanhar o vídeo. Note também que a coluna "id_departmento" tem um erro de digitação.
+
+## Curso 6, semana 2
+**Seção:** Introdução ao Tableau  
+**Conjuntos de dados:** `co2.csv`
+
+Os nomes dos países e alguns códigos de países foram traduzidos, impossibilitando a identificação deles como dados geográficos pelo Tableau.
+
+Os nomes originais dos países foram substituídos usando um arquivo CSV com cada código ISO-3166. O script está disponível na pasta [scripts](/scripts).
