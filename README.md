@@ -2,11 +2,24 @@
 
 Dados limpos para o Certificado Profissional de Análise de Dados do Google.
 
-Os arquivos usam uma codificação com suporte para caracteres especiais (UTF-8), têm pontos e não vírgulas nas casas decimais e têm seus cabeçalhos destraduzidos para que as consultas fiquem como nos vídeos.
+| **Curso** | **Semana** | **Seção**                                        | **Conjuntos** |
+|-----------|------------|--------------------------------------------------|---------------|
+| 4         | 3          | Transformando dados                              | [`customer_purchase.csv`](conjuntos/C4/customer_purchase.csv) |
+| 5         | 1          | Classificar dados usando SQL                     | [`movies.csv`](conjuntos/C5/movies.csv) |
+| 5         | 3          | Usar instruções JOIN para agregar dados no SQL   | [`employees.csv`](conjuntos/C5/employees.csv) e [`departments.csv`](conjuntos/C5/departments.csv) |
+| 6         | 2          | Introdução ao Tableau                            | [`co2.csv`](conjuntos/C6/co2.csv) |
+| 6         | 2          | Trabalhar com várias fontes de dados             | [`co2.xlsx`](conjuntos/C6/S2/co2.xlsx), [`energy.csv`](conjuntos/C6/S2/energy.csv), [`gdptotal.csv`](conjuntos/C6/S2/gdptotal.csv) e [`totalpopulation.csv`](conjuntos/C6/S2/totalpopulation.csv) |
 
-Alguns dados foram mantidos sujos onde a atividade consiste em limpá-los, sendo alterados apenas para que não seja impossível carregá-los.
+**O que muda:**
+* Suporte para caracteres especiais
+* Pontos e não vírgulas nas casas decimais
+* Adequações nos tipos de dados
+* Cabeçalhos destraduzidos para que as consultas fiquem como nos vídeos
 
-Veja abaixo os detalhes de quais modificações cada arquivo sofreu.
+Alguns campos são mantidos sujos quando a atividade consiste em limpá-los.
+
+<details>
+<summary>Clique para mais informações</summary>
 
 ## Índice dos conjuntos
 
@@ -65,3 +78,4 @@ Fontes de dados e licenças:
   * `customer_purchase.csv`
   * `employees.csv` e `departments.csv`
 
+</details>
